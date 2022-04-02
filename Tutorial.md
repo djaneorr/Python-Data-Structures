@@ -1,17 +1,17 @@
-Welcome
+## Welcome!
 Hello! My name is Jane Orr, and I am a Software Engineering student at BYU-Idaho. This is a basic introduction to a few Data Structures that are commonly used in the industry. The Data Structures we are going to go over are Stacks, Linked Lists, and Trees. You may be confused on what these are now, but I assure you: it will become a lot clearer after you read this tutorial of sorts.
 Contact Information:
 Jane Orr
 Orr19002@byui.edu
 
-Stack
+## Stack
 A stack can easily be represented by a stack of something we all know and love: pancakes. 
   In a stack of pancakes, you start eating the last pancake that was put on the stack. A stack can be referenced as a LIFO Data Structure, which stands for 
   “Last In, First Out”. The top of the stack can be referred to as the back of the stack, whereas the bottom can be referred to as the front of the stack. 
   This can be confusing, but what needs to be remembered is the front of the stack is in reference to the first item in the stack, or as in our example, 
   the first pancake on the plate. 
 
-Ex: 1.1
+###### Ex: 1.1
  ((NOTE TO SELF: ADD PICTURE HERE)
 
 When we add a value, or a pancake, to our stack, it is added to the top. This is called a push operation. This pushes everything down to make room for 
@@ -22,7 +22,7 @@ Now, when you eat a stack of pancakes, you don’t eat it starting with the bott
   it needs to be from the top down. This makes it a good data structure to remember where we have been, but not so much a good 
   data structure with data being consistently rotated.
 
-Ex: 1.2
+###### Ex: 1.2
 Push: 
 5								    6
 3		<-		+6		=		    5
@@ -45,7 +45,9 @@ All operations that are performed in a stack are O(1) operations. This means tha
 -	Example
 -	Problem to Solve
 
-Linked List
+## Linked List
+
+A linked list can be seen as one of the little toy snakes you had as a kid. The ones with the 
 -	Introduction
 -	Visual Representation (Snake)
 -	Basic features (insert, remove, access)
@@ -53,7 +55,7 @@ Linked List
 -	Example
 -	Problem to Solve
 
-Tree
+## Tree
 -	Introduction
 -	Visual Representation
 -	Basic Features (rules, balance)
