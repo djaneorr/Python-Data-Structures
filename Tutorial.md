@@ -3,14 +3,3 @@ Hello! My name is Jane Orr, and I am a Software Engineering student at BYU-Idaho
 Contact Information:
 Jane Orr
 Orr19002@byui.edu
-
-
-
-## Tree
--	Introduction
--	Visual Representation
--	Basic Features (rules, balance)
--	BST Operations (insert, traversing)
--	Finishing touches (contains, height, size, empty)
--	Example
--	Problem to Solve
