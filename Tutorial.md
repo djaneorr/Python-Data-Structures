@@ -35,10 +35,10 @@ Pop:
 3								    1
 1								
 
-	Along with push and pop, there are a couple of other operations that can be used with stacks. These are called size() and empty(). 
+Along with push and pop, there are a couple of other operations that can be used with stacks. These are called size() and empty(). 
   These do exactly as they say: figure out the size of the stack, or empty the contents of the stack. 
   
-  	All operations that are performed in a stack are O(1) operations. This means that in Big O Notation, no matter how big or small the
+All operations that are performed in a stack are O(1) operations. This means that in Big O Notation, no matter how big or small the
   stack may be, all operations will take the same amount of time. This is very important in the world of coding, as it is the most
   efficient type of Big O Notation.
   
