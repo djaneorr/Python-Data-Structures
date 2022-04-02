@@ -12,7 +12,7 @@ A stack can easily be represented by a stack of something we all know and love: 
   the first pancake on the plate. 
 
 ###### Ex: 1.1
- ((NOTE TO SELF: ADD PICTURE HERE)
+![image](https://user-images.githubusercontent.com/61299344/161401639-bc67768f-dfdc-405a-87a0-606f59ffce82.png)
 
 When we add a value, or a pancake, to our stack, it is added to the top. This is called a push operation. This pushes everything down to make room for 
   the new value, and we can add that value to the back of the stack. When we remove a value, or eat a pancake off the top, or the back, of the stack, 
@@ -47,7 +47,10 @@ All operations that are performed in a stack are O(1) operations. This means tha
 
 ## Linked List
 
-A linked list can be seen as one of the little toy snakes you had as a kid. The ones with the 
+A linked list can be seen as one of the little toy snakes you had as a kid. The ones with the joints that you could move around (see Ex. 2.1). 
+###### Ex. 2.1
+![image](https://user-images.githubusercontent.com/61299344/161401701-3c85f447-34f3-4cd9-8fdc-ed1234d017d6.png)
+
 -	Introduction
 -	Visual Representation (Snake)
 -	Basic features (insert, remove, access)
