@@ -19,13 +19,13 @@ Now, when you eat a stack of pancakes, you don’t eat it starting with the bott
 ###### Ex: 1.2
 Push: 
 5								    6
-3		<-		+6		=		    5
+3		->		+6		=		    5
 1								    3
 								    1
 
 Pop:
 6								    5
-5		<-		-6		=		    3
+5		->		-6		=		    3
 3								    1
 1								
 
