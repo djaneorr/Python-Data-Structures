@@ -18,10 +18,10 @@ Now, when you eat a stack of pancakes, you don’t eat it starting with the bott
 
 ###### Ex: 1.2
 Push: 
-531		->		+6	    =		6531
+> 531	  	->		+6	    =		6531
 
 Pop:
-6531		->		-6	    =		531
+> 6531		->		-6	    =		531
 
 Along with push and pop, there are a couple of other operations that can be used with stacks. These are called size() and empty(). 
   These do exactly as they say: figure out the size of the stack, or empty the contents of the stack. 
