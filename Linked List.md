@@ -9,7 +9,22 @@ A linked list can be seen as one of the little toy snakes you had as a kid. The 
 Each element in a linked list is called a node. Each node has a pointer to the next node in the list, as well as a pointer to the previous node in the list. The Head is the first node in the list, whereas the tail is the last node. This is why I think of linked nodes as the toy snakes, so they are easier to visualize.
 
 When we insert into a linked list, we need to consider whether we are inserting a new node at the head, the tail, or in the middle. With each scenario, there are different steps.
+
 When inserting at the head, we have 4 basic steps:
+> 1. We create a new node (usually calling it new_node).
+> 2. Set the "next" of the new node to the current head (new_node.next = self. head)
+> 3. Set the "previous" of the current head to the new node (self.head.prev = new_node)
+> 4. Set the head equal to the new node (self.head = new_node)
+When inserting at the head or the tail when the linked list is empty, we just need to set the head and the tail to the new node we have created.
+
+Inserting at the tail is basically the same as inserting at the head. Instead of using self.head, we will just use self.tail, and we will set the "previous" of the new node to the tail first, then the "next: of the tail to the new node.
+
+What this looks like:
+> 1. Create a new node (new_node)
+> 2. Set the "previous of the new node to the current tail (new_node.prev = self.tail)
+> 3. Set the "next" of the current tail to the new node (self.tail.next = new_node)
+> 4. Set the tail equal to the new node (self.tail = new_node)
+
 
 
 -	Basic features (insert, remove, access)
