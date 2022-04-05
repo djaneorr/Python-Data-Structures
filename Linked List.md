@@ -64,12 +64,19 @@ When we want to find a value or finding a specific node, we have to loop through
 
 #### Big O Notation
 > inserting the head = O(1)
+
 > inserting the tail = O(1)
+
 > inserting in the middle = O(n)
+
 > removing the head = O(1)
+
 > removing the tail = O(1)
+
 > removing in the middle = O(n)
+
 > size = O(1)
+
 > empty = O(1)
 
 -	Example
